@@ -6,7 +6,7 @@ const isRateLimited = function() {
 	if (!rateLimits.lastRequest || Date.now() - rateLimits.lastRequest >= 60000) {
 		rateLimits.lastRequest = Date.now();
 		rateLimits.ratelimit = 0;
-		Save("data/rateLimits.json");
+		Save("node_modules/metamob.api/data/rateLimits.json");
 	}
 
 	if (rateLimits.ratelimit >= 60) {
@@ -14,7 +14,7 @@ const isRateLimited = function() {
 	}
 	else {
 		rateLimits.ratelimit += 1;
-		Save("data/rateLimits.json");
+		Save("node_modules/metamob.api/data/rateLimits.json");
 		return false;
 	}
 

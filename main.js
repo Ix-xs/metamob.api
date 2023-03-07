@@ -24,7 +24,7 @@ const MetamobAPI = {
 
 			try {
 				config.APIKey = apiKey;
-				Save("private/config.json");
+				Save("node_modules/metamob.api/private/config.json");
 				resolve("✅ Clé API Metamob enregistrée.");
 			}
 
