@@ -1,6 +1,6 @@
 {
   "name": "metamob.api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "metamob.js est un package npm dédié à la gestion des monstres pour la quête du dofus ocre dans le jeu en ligne Dofus. Il fournit toutes les fonctionnalités nécessaires pour récupérer les données de monstres, telles que leurs noms, niveaux, types, emplacements, etc., à partir de l'API Metamob. Ce package est conçu pour simplifier la gestion des données de monstres pour les joueurs de Dofus qui cherchent à compléter la quête du dofus ocre, en leur offrant une solution clé en main pour récupérer ces données via l'API Metamob",
   "main": "main.js",
   "scripts": {
