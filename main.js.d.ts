@@ -1,6 +1,6 @@
 declare module "metamob.api" {
 
-    export interface MetamobAPI {
+    export class MetamobAPI {
         
         config(apiKey:string):Promise<string|void>;
 
