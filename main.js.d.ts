@@ -34,6 +34,6 @@ declare module "metamob.api" {
 
     const MetamobAPI:MetamobAPI;
 
-    export default MetamobAPI;
+    export {MetamobAPI};
 
 }
